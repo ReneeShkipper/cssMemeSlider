@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="slide">
+            <img src="images/Dog.jpg" alt="Dog" id="slide">
+        </div>
+        <div class="under">
+            <div class="pagination">
+                <div class="dot-container">
+                    <button class="dot" onclick="document.querySelector('.active').classList.remove('active'); 
+                        document.querySelector('.text-1').classList.add('active');  
+                        slide.src='images/Dog.jpg'"></button>
+                </div>
+                <div class="dot-container">
+                    <button class="dot" onclick="document.querySelector('.active').classList.remove('active'); 
+                    document.querySelector('.text-2').classList.add('active');  
+                    slide.src='images/Humster.jpg'"></button>
+                </div>
+                <div class="dot-container">
+                    <button class="dot" onclick="document.querySelector('.active').classList.remove('active'); 
+                    document.querySelector('.text-3').classList.add('active');  
+                    slide.src='images/Spider-man.jpg'"></button>
+                </div>
+                <div class="dot-container">
+                    <button class="dot" onclick="document.querySelector('.active').classList.remove('active'); 
+                    document.querySelector('.text-4').classList.add('active');  
+                    slide.src='images/Michel.jpg'"></button>
+                </div>
+                <div class="dot-container">
+                    <button class="dot" onclick="document.querySelector('.active').classList.remove('active'); 
+                    document.querySelector('.text-5').classList.add('active');  
+                    slide.src='images/Perry.jpg'"></button>
+                </div>
+            </div>
+            <div class="description">
+                <p class="text text-1 active">Me: Don't do that!</p>
+                <p class="text text-2">iphone 16</p>
+                <p class="text text-3">This the one</p>
+                <p class="text text-4">Thinking about that one hoodie I haven't seen in a while</p>
+                <p class="text text-5">If you don't get this, we can't be friends</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
